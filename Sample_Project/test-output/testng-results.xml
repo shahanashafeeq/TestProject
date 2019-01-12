@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="251424" started-at="2019-01-04T21:33:38Z" finished-at="2019-01-04T21:37:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="251424" started-at="2019-01-04T21:33:38Z" finished-at="2019-01-04T21:37:49Z">
+      <class name="TestNG_Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG_Test@457e2f02]" name="setUp" is-config="true" duration-ms="23572" started-at="2019-01-04T16:33:38Z" finished-at="2019-01-04T16:34:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkUrl()[pri:1, instance:TestNG_Test@457e2f02]" name="checkUrl" duration-ms="3809" started-at="2019-01-04T16:34:01Z" finished-at="2019-01-04T16:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNG_Test@457e2f02]" name="tearDown" is-config="true" duration-ms="960" started-at="2019-01-04T16:34:05Z" finished-at="2019-01-04T16:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG_Test@457e2f02]" name="setUp" is-config="true" duration-ms="19312" started-at="2019-01-04T16:34:06Z" finished-at="2019-01-04T16:34:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkTitle()[pri:2, instance:TestNG_Test@457e2f02]" name="checkTitle" duration-ms="142" started-at="2019-01-04T16:34:25Z" finished-at="2019-01-04T16:34:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNG_Test@457e2f02]" name="tearDown" is-config="true" duration-ms="954" started-at="2019-01-04T16:34:25Z" finished-at="2019-01-04T16:34:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG_Test@457e2f02]" name="setUp" is-config="true" duration-ms="20375" started-at="2019-01-04T16:34:26Z" finished-at="2019-01-04T16:34:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="rubberLink()[pri:3, instance:TestNG_Test@457e2f02]" name="rubberLink" duration-ms="30357" started-at="2019-01-04T16:34:47Z" finished-at="2019-01-04T16:35:17Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at TestNG_Test.rubberLink(TestNG_Test.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'LAPTOP-941RD8G0', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(jar:file:///C:/Users/shahana/AppData/Local/Temp/anonymous508755715063704878webdriver-profile/extensions/fxdriver@googlecode.com.xpi!/components/command-processor.js:11402)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(jar:file:///C:/Users/shahana/AppData/Local/Temp/anonymous508755715063704878webdriver-profile/extensions/fxdriver@googlecode.com.xpi!/components/command-processor.js:13378)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/k(jar:file:///C:/Users/shahana/AppData/Local/Temp/anonymous508755715063704878webdriver-profile/extensions/fxdriver@googlecode.com.xpi!/components/command-processor.js:13395)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(jar:file:///C:/Users/shahana/AppData/Local/Temp/anonymous508755715063704878webdriver-profile/extensions/fxdriver@googlecode.com.xpi!/components/command-processor.js:846)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rubberLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNG_Test@457e2f02]" name="tearDown" is-config="true" duration-ms="780" started-at="2019-01-04T16:35:17Z" finished-at="2019-01-04T16:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG_Test@457e2f02]" name="setUp" is-config="true" duration-ms="20110" started-at="2019-01-04T16:35:18Z" finished-at="2019-01-04T16:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="linkTest()[pri:4, instance:TestNG_Test@457e2f02]" name="linkTest" duration-ms="3276" started-at="2019-01-04T16:35:38Z" finished-at="2019-01-04T16:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNG_Test@457e2f02]" name="tearDown" is-config="true" duration-ms="696" started-at="2019-01-04T16:35:41Z" finished-at="2019-01-04T16:35:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG_Test@457e2f02]" name="setUp" is-config="true" duration-ms="22907" started-at="2019-01-04T16:35:42Z" finished-at="2019-01-04T16:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactLink()[pri:5, instance:TestNG_Test@457e2f02]" name="contactLink" duration-ms="3606" started-at="2019-01-04T16:36:05Z" finished-at="2019-01-04T16:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNG_Test@457e2f02]" name="tearDown" is-config="true" duration-ms="613" started-at="2019-01-04T16:36:09Z" finished-at="2019-01-04T16:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG_Test@457e2f02]" name="setUp" is-config="true" duration-ms="18964" started-at="2019-01-04T16:36:09Z" finished-at="2019-01-04T16:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchboxTest()[pri:6, instance:TestNG_Test@457e2f02]" name="searchboxTest" duration-ms="12258" started-at="2019-01-04T16:36:28Z" finished-at="2019-01-04T16:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchboxTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNG_Test@457e2f02]" name="tearDown" is-config="true" duration-ms="971" started-at="2019-01-04T16:36:40Z" finished-at="2019-01-04T16:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG_Test@457e2f02]" name="setUp" is-config="true" duration-ms="19202" started-at="2019-01-04T16:36:41Z" finished-at="2019-01-04T16:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enquiryTest()[pri:7, instance:TestNG_Test@457e2f02]" name="enquiryTest" duration-ms="3623" started-at="2019-01-04T16:37:01Z" finished-at="2019-01-04T16:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enquiryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNG_Test@457e2f02]" name="tearDown" is-config="true" duration-ms="979" started-at="2019-01-04T16:37:04Z" finished-at="2019-01-04T16:37:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG_Test@457e2f02]" name="setUp" is-config="true" duration-ms="19408" started-at="2019-01-04T16:37:05Z" finished-at="2019-01-04T16:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="facebookLink()[pri:8, instance:TestNG_Test@457e2f02]" name="facebookLink" duration-ms="1044" started-at="2019-01-04T16:37:25Z" finished-at="2019-01-04T16:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNG_Test@457e2f02]" name="tearDown" is-config="true" duration-ms="690" started-at="2019-01-04T16:37:26Z" finished-at="2019-01-04T16:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG_Test@457e2f02]" name="setUp" is-config="true" duration-ms="20642" started-at="2019-01-04T16:37:26Z" finished-at="2019-01-04T16:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="twitterLink()[pri:9, instance:TestNG_Test@457e2f02]" name="twitterLink" duration-ms="1087" started-at="2019-01-04T16:37:47Z" finished-at="2019-01-04T16:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitterLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNG_Test@457e2f02]" name="tearDown" is-config="true" duration-ms="1029" started-at="2019-01-04T16:37:48Z" finished-at="2019-01-04T16:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
